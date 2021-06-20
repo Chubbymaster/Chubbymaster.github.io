@@ -13201,7 +13201,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;User-Agent&#39;</span><span class="p">:</span> <span class="s1">&#39;alex_wang&#39;</span><span class="p">}</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;User-Agent&#39;</span><span class="p">:</span> <span class="s1">&#39;cheb&#39;</span><span class="p">}</span>
 <span class="n">groupbuys</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://api.pushshift.io/reddit/search/submission/?subreddit=mechmarket&amp;metadata=true&amp;before=1620792000&#39;</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
 <span class="n">d</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">groupbuys</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
 </pre></div>
@@ -13396,7 +13396,7 @@ div#notebook {
 <span class="n">l</span> <span class="o">=</span> <span class="s2">&quot;https://api.pushshift.io/reddit/search/submission/?subreddit=mechmarket&amp;metadata=true&amp;size=500&amp;&quot;</span>
 <span class="n">after</span> <span class="o">=</span> <span class="s2">&quot;after=&quot;</span>
 <span class="n">before</span> <span class="o">=</span> <span class="s2">&quot;&amp;before=&quot;</span>
-<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;User-Agent&#39;</span><span class="p">:</span> <span class="s1">&#39;alex_wang&#39;</span><span class="p">}</span>
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;User-Agent&#39;</span><span class="p">:</span> <span class="s1">&#39;cheb&#39;</span><span class="p">}</span>
 
 <span class="c1"># iterate through every day</span>
 <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">int</span><span class="p">(</span><span class="n">days</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
